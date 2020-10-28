@@ -11,7 +11,7 @@ const browserConfig = {
 		rules: [
 			{
 				test: /js$/,
-				exclude: /(node_modules)/,
+				exclude: /node_modules/,
 				loader: "babel-loader",
 				query: { presets: ["react-app"] }
 			}
@@ -33,7 +33,7 @@ const serverConfig = {
 		rules: [
 			{
 				test: /js$/,
-				exclude: /(node_modules)/,
+				exclude: /node_modules/,
 				loader: "babel-loader",
 				query: { presets: ["react-app"] }
 			}

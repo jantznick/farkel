@@ -3,7 +3,7 @@ import { Provider } from 'react-redux'
 import { Route, Switch } from 'react-router-dom';
 
 import App from '../components/App.js';
-import NotFound from '../components/NotFound.js';
+import NotFound from '../components/NotFound';
 
 import store from '../reducers';
 
