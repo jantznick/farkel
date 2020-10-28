@@ -17,10 +17,7 @@ const browserConfig = {
 			}
 		]
 	},
-	mode: "development",
-	watchOptions: {
-		ignored: /node_modules/
-	}
+	mode: "development"
 };
 
 const serverConfig = {
@@ -42,10 +39,7 @@ const serverConfig = {
 			}
 		]
 	},
-	mode: "development",
-	watchOptions: {
-		ignored: /node_modules/
-	}
+	mode: "development"
 };
 
 module.exports = [browserConfig, serverConfig];

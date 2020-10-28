@@ -2,7 +2,7 @@
   "name": "farkel",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "clientRender.js",
   "scripts": {
     "start": "npm run build-site & npm run build-server",
     "build-server": "nodemon server.js",
@@ -10,11 +10,8 @@
     "build-css": "node nodeSass.js"
   },
   "dependencies": {
-    "autoprefixer": "^9.7.6",
     "express": "^4.17.1",
-    "node-sass": "^4.14.1",
-    "postcss": "^7.0.29",
-    "react": "^16.13.1",
+    "react": "^16.10.2",
     "react-dom": "^16.9.0",
     "react-redux": "^7.1.1",
     "react-router-dom": "^5.1.0",
@@ -25,6 +22,7 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.6",
     "babel-preset-react-app": "^9.0.2",
+    "css-loader": "^3.2.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^4.2.0",
     "nodemon": "^1.19.2",

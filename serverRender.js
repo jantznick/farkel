@@ -15,7 +15,6 @@ app.get('*', (req,res) => {
 			<head>
 				<title>Farkle</title>
 				<script src="/bundle.js" defer></script>
-				<link href="/styles/style.css" rel="stylesheet">
 				<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 			</head>
 			<body>
